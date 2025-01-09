@@ -1,0 +1,42 @@
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.mother {
+  font-size: 30px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.mother-sub {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.box {
+  height: 70px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-orange {
+  color: #ff7e00;
+}
+.text-green {
+  color: #009900;
+}
+.text-blue {
+  color: #4169e1;
+}
+.text-pink {
+  color: #ffabb9;
+}
+.text-violet {
+  color: #8b00ff;
+}

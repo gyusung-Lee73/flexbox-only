@@ -1,0 +1,32 @@
+.mother {
+  border: 1px solid black;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+.box {
+  border: 1px solid black;
+}
+.big {
+  background-color: red;
+  height: 250px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 20px;
+}
+.move {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+}
+.small {
+  background-color: green;
+  height: 130px;
+  width: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

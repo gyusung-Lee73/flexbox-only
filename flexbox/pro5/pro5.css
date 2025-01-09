@@ -1,0 +1,40 @@
+.mother {
+  display: flex;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+.red {
+  background-color: red;
+  height: 250px;
+  width: 500px;
+  position: relative;
+}
+.move {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+}
+.green {
+  background-color: green;
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+.violet {
+  background-color: violet;
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}

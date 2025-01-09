@@ -1,0 +1,27 @@
+.mother {
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-between;
+}
+.mother-second {
+  display: flex;
+  justify-content: flex-end;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.violet {
+  background-color: violet;
+}
